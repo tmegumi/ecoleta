@@ -22,12 +22,14 @@ We strongly recommend that you use [NVM](https://github.com/nvm-sh/nvm) to easil
 ### Project setup
 
 Install it by cloning this repository.
-
-`git clone git@github.com:tmegumi/nlw-ecoleta.git your-project-name`
+```
+git clone git@github.com:tmegumi/nlw-ecoleta.git your-project-name
+```
 
 Install the dependencies.
-
-`npm install`
+```
+npm install
+```
 
 ### Running
 
