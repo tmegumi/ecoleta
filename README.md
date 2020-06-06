@@ -1,6 +1,6 @@
 # Ecoleta
 
-![Image of Ecoleta](https://github.com/tmegumi/images/ecoleta.png)
+![Image of Ecoleta](https://github.com/tmegumi/nlw-ecoleta/blob/master/images/ecoleta.png)
   
 Project developed during Next Level Week # 01. Ecoleta is a waste collection application, in which you can register and find collection points close to where you live or based on your location.
   
