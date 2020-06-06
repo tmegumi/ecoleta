@@ -11,7 +11,6 @@ The development stack used was:
 * __Mobile__: React Native
 
 ## Requirements
----
 
 * [Node](https://nodejs.org/) (Currently using v12.16.1)
 * [Node Package Manager](https://www.npmjs.com/) (Currently using v6.13.4)
@@ -19,7 +18,6 @@ The development stack used was:
 We strongly recommend that you use [NVM](https://github.com/nvm-sh/nvm) to easily switch between NodeJS versions, alternatively, you can use docker.
 
 ## Getting Started
----
 
 ### Project setup
 
@@ -65,7 +63,6 @@ npm start
 Baixe o aplicativo [Expo](https://expo.io/) no seu celular pela [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent) ou [Apple Store](https://apps.apple.com/br/app/expo-client/id982107779) ou, você pode usar um emulator com o Expo para visualizar o aplicativo Ecoleta.
 
 ## Miscellaneous
----
 
 ### Code Editor
 Feel free to use whichever editor you like but we strongly recommend you to use Visual Studio Code as it has a large number of plugins ready to use and works great with this project's configuration files.
