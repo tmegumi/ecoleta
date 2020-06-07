@@ -57,8 +57,8 @@ const Home = () => {
 
   function handleNavigateToPoints() {
     navigation.navigate('Points', {
-      selectedUf,
-      selectedCity
+      city: selectedCity,
+      uf: selectedUf
     });
   }
 
@@ -83,15 +83,37 @@ const Home = () => {
         <View style={styles.footer}>
           <RNPickerSelect 
             style={pickerSelectStyles}
-            onValueChange={(uf) => setSelectedUf(uf)}
             items={ufSelectItems}
-            //placeholder="Selecione uma UF"
+            onValueChange={(uf) => setSelectedUf(uf)}
+            placeholder={{
+              label: 'Selecione uma UF...'
+            }}
+            useNativeAndroidPickerStyle={false}
+            Icon={() => (
+              <Icon 
+                name="chevron-down" 
+                color="#A0A0B2" 
+                size={24} 
+                style={styles.selectIcon}
+              />
+            )}
           />
           <RNPickerSelect 
             style={pickerSelectStyles}
-            onValueChange={(city) => setSelectedCity(city)}
             items={citySelectItems}
-            //placeholder="Selecione uma cidade"
+            onValueChange={(city) => setSelectedCity(city)}
+            placeholder={{
+              label: 'Selecione uma cidade...'
+            }}
+            useNativeAndroidPickerStyle={false}
+            Icon={() => (
+              <Icon 
+                name="chevron-down" 
+                color="#A0A0B2" 
+                size={24} 
+                style={styles.selectIcon}
+              />
+            )}
           />
 
           <RectButton style={styles.button} onPress={handleNavigateToPoints}>
@@ -139,6 +161,10 @@ const styles = StyleSheet.create({
   },
 
   footer: {},
+
+  selectIcon: {
+    padding: 18,
+  },
 
   button: {
     backgroundColor: '#34CB79',
