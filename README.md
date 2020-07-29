@@ -62,7 +62,7 @@ cd mobile
 # Start the application using the npm start command.
 npm start
 ```
-Baixe o aplicativo [Expo](https://expo.io/) no seu celular pela [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent) ou [Apple Store](https://apps.apple.com/br/app/expo-client/id982107779) ou, você pode usar um emulator com o Expo para visualizar o aplicativo Ecoleta.
+Donwload [Expo](https://expo.io/) app on your phone from [Google Play](https://play.google.com/store/apps/details?id=host.exp.exponent) or [Apple Store](https://apps.apple.com/br/app/expo-client/id982107779) or, you can use an emulator with Expo to view Ecoleta app.
 
 ## Miscellaneous
 
